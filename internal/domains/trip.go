@@ -13,7 +13,7 @@ type Trip struct {
 	Price            float32   `json:"price"`
 }
 
-type TripClient struct {
+type Booking struct {
 	Id            int `json:"id"`
 	TripId        int `json:"tripId"`
 	UserId        int `json:"userId"`
